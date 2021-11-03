@@ -52,8 +52,7 @@ namespace Media4Notas
                     result = "Aprovado";
                 }
 
-                Console.Write($"Você ficou com a media {media:N2}. ");
-                Console.Write($"Resultado: ");
+                Console.Write($"Você ficou com a media {media:N2}. Resultado: ");
                 
                 if(result == "Reprovado"){
                     Console.ForegroundColor = ConsoleColor.Red;
